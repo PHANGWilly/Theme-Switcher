@@ -1,0 +1,16 @@
+:root{
+    --main-color: 200, 100%, 50%;
+    --svg-width : 100%;
+}
+
+:root:has(#dark-mode:checked){
+    --bg-body : hsl(0, 5%, 10%);
+    --main-text-color : hsl(0, 15%, 95%);
+    --border-color : hsl(200, 100%, 50%);
+}
+
+:root:has(#light-mode:checked){
+    --bg-body : hsl(0, 15%, 95%);
+    --main-text-color : hsl(0, 5%, 10%);
+    --border-color : hsl(200, 100%, 50%);
+}
