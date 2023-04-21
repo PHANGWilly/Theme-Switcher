@@ -1,1 +1,1 @@
-# Theme Switcher
+# Theme Switcher with JS using LocalStorage
